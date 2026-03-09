@@ -1,0 +1,145 @@
+.sw-wrap {
+  background: #f5f3ee;
+  min-height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sw-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  box-sizing: border-box;
+}
+
+.sw-logo {
+  font-size: 22px;
+  font-weight: 800;
+  color: #6b21a8;
+  font-style: italic;
+}
+
+.sw-nav-links {
+  display: flex;
+  gap: 36px;
+}
+
+.sw-nav-link {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.sw-nav-link:hover {
+  color: #6b21a8;
+}
+
+.sw-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sw-login-btn {
+  padding: 8px 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.sw-login-btn:hover {
+  border-color: #6b21a8;
+  color: #6b21a8;
+}
+
+.sw-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px 20px;
+  gap: 18px;
+  max-width: 680px;
+}
+
+.sw-title {
+  font-size: 72px;
+  font-weight: 800;
+  color: #1a1a2e;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.sw-sub {
+  font-size: 17px;
+  color: #444;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.sw-highlight {
+  color: #6b21a8;
+}
+
+.sw-form {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.sw-input {
+  border: none;
+  outline: none;
+  padding: 14px 18px;
+  font-size: 14px;
+  color: #333;
+  width: 260px;
+  background: none;
+}
+
+.sw-input::placeholder {
+  color: #aaa;
+}
+
+.sw-btn {
+  padding: 14px 24px;
+  background: #6b21a8;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.sw-btn:hover {
+  background: #581c87;
+}
+
+.sw-illustration {
+  width: 100%;
+  max-width: 860px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sw-img {
+  width: 100%;
+  object-fit: contain;
+  display: block;
+}
