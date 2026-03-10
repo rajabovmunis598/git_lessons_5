@@ -385,7 +385,6 @@
   opacity: 0.7;
 }
 
-/* MERCHANTS */
 .merch-wrap {
   padding: 60px 40px;
   max-width: 900px;
@@ -488,3 +487,116 @@
   box-sizing: border-box;
 }
 
+.sw3-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 60px;
+  background: #f5f3ee;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sw3-logo {
+  height: 32px;
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.sw3-footer {
+  background: #f0eee9;
+  padding: 60px 60px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sw3-footer-main {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.sw3-col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sw3-col-brand {
+  gap: 14px;
+}
+
+.sw3-brand-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+.sw3-social {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+
+.sw3-col-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+}
+
+.sw3-footer-link {
+  font-size: 13px;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.sw3-footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.sw3-copy {
+  font-size: 13px;
+  color: #888;
+}
+
+.sw3-bottom-links {
+  display: flex;
+  gap: 24px;
+}
+
+.sw3-bottom-link {
+  font-size: 13px;
+  color: #888;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.sw3-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #555;
+}
+
+.sw3-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  flex-shrink: 0;
+}
