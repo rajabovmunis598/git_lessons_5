@@ -600,3 +600,163 @@
   background: #22c55e;
   flex-shrink: 0;
 }
+@media (max-width: 500px) {
+
+  .sw-nav {
+    padding: 14px 16px;
+  }
+
+  .sw-nav-links {
+    display: none;
+  }
+
+  .sw-nav-right .sw-nav-link {
+    display: none;
+  }
+
+  .sw-hero {
+    padding: 40px 16px 10px;
+  }
+
+  .sw-title {
+    font-size: 42px;
+  }
+
+  .sw-sub {
+    font-size: 14px;
+  }
+
+  .sw-form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sw-input {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+  }
+
+  .sw-btn {
+    width: 100%;
+  }
+
+  .sw2-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 24px;
+  }
+
+  .sw2-reverse {
+    flex-direction: column;
+  }
+
+  .sw2-text-right {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .sw2-img {
+    max-width: 220px;
+  }
+
+  .sw2-title {
+    font-size: 20px;
+  }
+
+  .sw2-text {
+    max-width: 100%;
+  }
+
+  .sw2-box-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 24px;
+  }
+
+  .sw2-box-left {
+    max-width: 100%;
+  }
+
+  .sw2-box-title {
+    font-size: 26px;
+  }
+
+  .sw2-box-img {
+    width: 100%;
+  }
+
+  .cmp-wrap {
+    padding: 40px 16px;
+  }
+
+  .cmp-title {
+    font-size: 18px;
+  }
+
+  .cmp-head,
+  .cmp-row {
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  }
+
+  .cmp-label {
+    font-size: 11px;
+    padding-right: 6px;
+  }
+
+  .cmp-cell {
+    font-size: 11px;
+  }
+
+  .cmp-brand {
+    font-size: 10px;
+  }
+
+  .cmp-logo {
+    height: 14px;
+  }
+
+  .merch-wrap {
+    padding: 40px 16px;
+  }
+
+  .merch-title {
+    font-size: 26px;
+  }
+
+  .merch-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sw3-logos {
+    padding: 30px 20px;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .sw3-logo {
+    height: 22px;
+  }
+
+  .sw3-footer {
+    padding: 40px 20px 20px;
+  }
+
+  .sw3-footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .sw3-col-brand {
+    grid-column: 1 / -1;
+  }
+
+  .sw3-footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .sw3-bottom-links {
+    gap: 16px;
+  }
+}
